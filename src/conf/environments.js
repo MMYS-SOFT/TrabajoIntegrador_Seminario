@@ -1,7 +1,7 @@
 import "dotenv/config";
 
 export const environments = {
-  PORT: process.env.PORT || 5800, //SECRET es una propiedad y ella presenta una clave secreta que generalmente se utiliza para firmar y verificar tokens de autenticacion
+  PORT: process.env.PORT || 4800, //SECRET es una propiedad y ella presenta una clave secreta que generalmente se utiliza para firmar y verificar tokens de autenticacion
   SECRET: process.env.SECRET || "music", //Esta propiedad define la clave secreta
   DB: {
     DB_NAME: process.env.DB_NAME || "radiodb",
